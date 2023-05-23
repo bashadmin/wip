@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowAWSCreditsUsage",
+            "Effect": "Allow",
+            "Action": [
+                "aws-credits:ApplyPromotion",
+                "aws-credits:Redeem",
+                "aws-credits:ViewAccountBalance"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
